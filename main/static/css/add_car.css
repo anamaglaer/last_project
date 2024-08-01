@@ -1,0 +1,42 @@
+.form_add_car {
+    background: bisque;
+    padding: 20 px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+    allign-item: center;
+    gap: 20px;
+}
+.add_car_title {
+    font-family: "Beer money"
+     font-size: 20px;
+     font-weight: 400;
+     font-style: normal;
+     color: black;
+}
+.car_form{
+    gap: 15px;
+    & label {
+    color: black;
+    }
+     & input {
+    min-width: 300px;
+    max-width: 300px;
+    }
+     & textarea {
+    min-width: 300px;
+    max-width: 300px;
+    }
+     & select {
+    min-width: 300px;
+    max-width: 300px;
+    }
+}
+
+.additional_images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

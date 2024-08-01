@@ -1,0 +1,63 @@
+{% extends "main.html" %}
+{% load static  %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/kab.css' %}">
+{% endblock %}
+
+
+{% block content %}
+<div class="kabinet">
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ log_form.as_table }}
+    <input type="text" value="{{ user.username }}">
+    <button>Изменить</button>
+</form>
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ pass_form.as_table }}
+    <button>Изменить</button>
+</form>
+    <a href="{% url 'my_orders' %}" style="color:black;">Мои заказы</a>
+    </div>
+
+
+
+{% if orders %}
+{% for item in orders %}
+
+<div class="order" >
+    <p>Номер заказа: {{item.id}} дата заказа: {{item.created}}</p>
+    <table >
+    <thead>
+    <th st>Изображение</th>
+    <th>Продукт</th>
+    <th>Количество</th>
+    <th>Стоимость за единицу</th>
+    <th>Стоимость</th>
+    </thead>
+
+    {% for order_item in item.items.all %}
+        {% with product=order_item.product %}
+         <tbody>
+        <tr>
+        <td>
+            <a href="{% url 'detail' product.id %}" class="cart_img" >
+                <img src="{{product.image.url}}" alt="">
+            </a>
+        </td>
+        <td>{{product.brand}} {{product.model}}</td>
+        <td>{{order_item.quantity}}</td>
+        <td>{{order_item.price}}</td>
+        <td>{{order_item.get_cost}}</td>
+
+    </tr>
+         {% endwith %}
+        </tbody>
+    {% endfor %}
+    </table>
+</div>
+{% endfor %}
+{% endif %}
+{% endblock %}

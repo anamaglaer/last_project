@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% load static  %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/create.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="create_order">
+<h1>Оформление заказа</h1>
+    <div class="order_info">
+        <h2>Ваш заказ</h2>
+        <ul>
+            {% for item in cart %}
+            <li>
+                {{ item.product }} x {{item.quantity}}
+                {{ item.total_price }}
+            </li>
+            {% endfor %}
+        </ul>
+        <p>Итого: {{cart.get_total_price}}</p>
+    </div>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <button>Оформить заказ</button>
+
+    </form>
+</div>
+{% endblock %}

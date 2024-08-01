@@ -1,0 +1,205 @@
+.main {
+
+}
+.main_header {
+        max-width: 100%;
+        height: 120px;
+        background: grey;
+        padding: 15px 20px;
+}
+.navigation_bar {
+        max-width: 100%;
+        height: 50px;
+        background: red;
+        display: flex;
+        justify-content: space-between;
+        pudding: 0 30px;
+        alingn-item:center;
+}
+.list_card {
+        background: bisque;
+}
+.header_list_logo {
+        max-width: 270px;
+        max-height: 80px;
+}
+.header_list_logo img {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+}
+.main_header_list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.header_left {
+       display: flex;
+       align-items: center;
+       gap: 40px;
+}
+.social_account_list {
+       max-width: 100%;
+       display: flex;
+       gap: 5px;
+}
+.social_account_item a {
+        max-width: 32px;
+        max-height: 32px;
+}
+.social_account_item a img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+}
+.header_list_social_account {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+.header_right {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+}
+.authorization {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+}
+.authorization_button {
+        padding: 5px;
+        background: red;
+        border-radius: 5px;
+        text: white;
+        transition: 0.3s case;
+        opocity: 1;
+        &:hover{
+            background: coral;
+            text-color: white;
+        }
+        &:active{
+            top: 2px;
+            transition: 0.1s case;
+        }
+}
+.authorization_button: hover{
+        background: coral;
+        text-color: bisque;
+}
+.phone_number_list {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+}
+.phone_number_item {
+       font-family: "Beer money"
+       font-size: 15px;
+       font-weight: 400;
+       font-style: normal;
+}
+.list_wrapper {
+        display: flex;
+        gap: 10px;
+        padding: 0 20px 20px 20px;
+
+}
+.card {
+        width: 300px;
+        height: 300px;
+        background: bisque;
+        text: bisque;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-item: center;
+        justify-content: center;
+        gap: 20px;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 30%;
+}
+.card_img {
+        max-width: 250px;
+        max-height: auto;
+        border-radius: 30%;
+        &img {
+            width: 100%
+            height: 100%
+            object-fit: cover;
+            border-radius: 20%;
+        }
+}
+
+.navigation_list {
+        display: flex;
+        gap: 10px;
+}
+.navigation_item {
+        background: bisque;
+        padding: 5px;
+        color: coral;
+        & a {
+            padding: 20px 5px;
+            color: coral;
+            font-size: 15px;
+            font-weight: 400;
+            font-style: normal;
+            border-radius: 30%;
+        }
+        & hover {
+            background:coral;
+            color:bisque;
+        }
+}
+.basket {
+        display: flex;
+        gap: 5px;
+        padding: 5px;
+        color: black;
+        background: white;
+        align-item: center;
+        justify-content: center;
+        border-radius: 5px;
+}
+.basket_img {
+        max-width: 25px;
+        max-height: 25px;
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+}
+
+.search_drop {
+    display: none;
+    background: white;
+    position: absolute;
+    width: 204px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.search_drop-item-img {
+    max-width: 50px;
+    max-height: 70px;
+    & img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.search_drop-item {
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 5px;
+    gap: 10px;
+    &:hover {
+        background: aquamarine;
+    }
+}
+
+

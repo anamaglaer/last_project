@@ -1,0 +1,49 @@
+{% extends "main.html" %}
+{% load static  %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/cart_detail.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+<table>
+    <thead>
+    <th>Изображение</th>
+    <th>Продукт</th>
+    <th>Количество</th>
+    <th>Стоимость за единицу</th>
+    <th>Стоимость</th>
+    </thead>
+    <tbody>
+    {% for item in cart %}
+    {% with product=item.product %}
+    <tr>
+        <td>
+            <a href="{% url 'detail' product.id %}" class="cart_img">
+                <img src="{{product.image.url}}" alt="">
+            </a>
+        </td>
+        <td>{{product.brand}} {{product.model}}</td>
+        <td>{{item.quantity}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.total_price}}</td>
+        <td><a href="{% url 'cart_remove' product.id%}">Удалить из корзины</a></td>
+    </tr>
+    {% endwith %}
+    {% endfor %}
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>Итого</td>
+        <td colspan="3"></td>
+        <td>{{ cart.get_total_price }}</td>
+    </tr>
+    </tfoot>
+</table>
+<div class="">
+    <a href="{% url 'order_create' %}">Оформить заказ</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'main.html' %}
+
+{% load static  %}
+
+{% block content %}
+{% if cars %}
+    <div class="list_card">
+        <div class="list_wrapper">
+            {% for car in cars %}
+            <article>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="{{ car.image.url }}" style="width:250px; "  alt="">
+                    </div>
+                    <p class="card_title">
+                        {{ car.brand }} {{ car.model }}
+                    </p>
+                    <p class="card_price">
+                        {{ car.price }}
+                    </p>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+{% else %}
+<h1> Ничего не найдено </h1>
+{% endif %}
+    {% endblock content %}
+
+
+

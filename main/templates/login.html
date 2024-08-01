@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+{% load static  %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/login.css' %}">
+{% endblock %}
+
+
+{% block content %}
+{% if error_message %}
+<div class="error_message">
+    {{ error_message }}
+</div>
+{% endif %}
+<div class="reg">
+<form action="" method="POST">
+    {% csrf_token %}
+    <table>
+        {{ form.as_table }}
+    </table>
+    <button> Войти </button>
+</form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "main.html" %}
+{% load static  %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/registration.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+<div class="reg">
+<form action="" method="POST">
+    {% csrf_token %}
+    <table>
+        {{ form.as_table }}
+    </table>
+    <button> Зарегистрироваться </button>
+</form>
+</div>
+
+{% endblock %}
+

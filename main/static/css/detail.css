@@ -1,0 +1,19 @@
+.detail_info {
+    background: bisque;
+    color: black;
+}
+.block_info{
+    color: black;
+}
+
+
+
+.wrapper {
+    padding: 20px;
+}
+.block_image{
+    display: flex;
+}
+.additional_image{
+
+}
