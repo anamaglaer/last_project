@@ -1,0 +1,1026 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-07-04T13:23:19.489Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "BMW",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-07-04T13:23:57.397Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Peugeot",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-07-04T13:27:39.998Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Европа",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-07-04T13:27:55.709Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Азия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-07-04T13:28:14.477Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "BMW X6 G06",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-07-04T13:30:11.517Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Peugeot 3008",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-07-04T13:32:35.561Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Voyah",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-07-04T13:32:45.952Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Zeekr",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-07-04T13:34:20.512Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Zeekr X",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-07-04T13:36:26.105Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Voyah Free 1,5 Extended Range",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-07-04T18:55:21.343Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "BMW X",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-07-08T15:41:40.942Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "BMW X6 G06",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-07-18T17:39:22.098Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Peugeot 3008",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-07-22T18:23:23.209Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Order object (2)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-07-22T18:23:23.233Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Order object (1)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-07-25T17:10:12.084Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Order object (4)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add brand",
+      "content_type": 7,
+      "codename": "add_brand"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change brand",
+      "content_type": 7,
+      "codename": "change_brand"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete brand",
+      "content_type": 7,
+      "codename": "delete_brand"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view brand",
+      "content_type": 7,
+      "codename": "view_brand"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add manufacturer",
+      "content_type": 8,
+      "codename": "add_manufacturer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change manufacturer",
+      "content_type": 8,
+      "codename": "change_manufacturer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete manufacturer",
+      "content_type": 8,
+      "codename": "delete_manufacturer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view manufacturer",
+      "content_type": 8,
+      "codename": "view_manufacturer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add car",
+      "content_type": 9,
+      "codename": "add_car"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change car",
+      "content_type": 9,
+      "codename": "change_car"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete car",
+      "content_type": 9,
+      "codename": "delete_car"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view car",
+      "content_type": 9,
+      "codename": "view_car"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add additional car image",
+      "content_type": 10,
+      "codename": "add_additionalcarimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change additional car image",
+      "content_type": 10,
+      "codename": "change_additionalcarimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete additional car image",
+      "content_type": 10,
+      "codename": "delete_additionalcarimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view additional car image",
+      "content_type": 10,
+      "codename": "view_additionalcarimage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Заказ",
+      "content_type": 11,
+      "codename": "add_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Заказ",
+      "content_type": 11,
+      "codename": "change_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Заказ",
+      "content_type": 11,
+      "codename": "delete_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Заказ",
+      "content_type": 11,
+      "codename": "view_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add order item",
+      "content_type": 12,
+      "codename": "add_orderitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change order item",
+      "content_type": 12,
+      "codename": "change_orderitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete order item",
+      "content_type": 12,
+      "codename": "delete_orderitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view order item",
+      "content_type": 12,
+      "codename": "view_orderitem"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$OD2NVEJoSyWPrPSux1mNDu$wKh6780bsMIG4Q+mYaChe0Iq69KNZbucfYps9Tyk+6M=",
+      "last_login": "2024-07-18T17:39:05.085Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-07-04T12:56:38.873Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$Q2gFyHhn8Ojdsjlto2yRZ6$kLC2mQ3UsIyKFs6XhZ4Nhx6TFeTUGu9ErWpwpY/+KCA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Igor",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-11T17:13:20.813Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$OmqPzdYG2v1kdXjaUFAXqK$cEIT5xZrsFZoBCM5czaQjgxVWr8fp3SAn+yHw62MDWI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Igor5",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-11T17:21:25.306Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$Y4wSQxS9MgMa7YOopSVqlU$2Etk6DZsd/jZTb67Ii6UF4QddnMevAz2TWJ31BuH5co=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Igor6",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-11T17:26:30.571Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$k93nq9KOiNMPBgpnqpmZN2$qZsFxLdAWpTHH4o9N6TLlvbSyIdxFpSUzBT0ZQ8sHtU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Igor7",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-11T17:27:01.448Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$Ui4G2t6Limi6AMPGt2mC1j$x7WWH8utAQPyX22I4oH1f4EglY0xp/Hll+/IAWDBq08=",
+      "last_login": "2024-07-15T16:49:26.893Z",
+      "is_superuser": false,
+      "username": "Andrey",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-15T15:36:12.715Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "main",
+      "model": "brand"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "main",
+      "model": "manufacturer"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "main",
+      "model": "car"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "main",
+      "model": "additionalcarimage"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "orders",
+      "model": "order"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "orders",
+      "model": "orderitem"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "1l32i86rpy0fnhsm0lz44v3vk0u11c14",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBqgRlcuu8ZyACDVA0kpV0Z765NutDtf-_9l_C0rcVvnRc_J3ERVpx-t0DxwXUH6U711mRsdV3mIHdFHrTLqSV-Xg_376BQL996BIiJR4s6IKukkR1mGDIN-WxJxQDKuMCGHUQM6JJyTFY7oywhjFq8P-67N88:1sTOXy:-MutYEy-LPmDBwjjxQxQJtEaXk6Khzfx5uPi7pM6FqU",
+      "expire_date": "2024-07-29T16:27:30.764Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "umupt6m2isvholutqbgvsdpq9lxx40hs",
+    "fields": {
+      "session_data": ".eJxVjDsOgzAQBe_iOrLW2Dg2ZXrOgPZjB5IIJAwV4u4BiSJp38ybTXW4Ln23ljR3g6hGGXX73Qj5ncYTyAvH56R5Gpd5IH0q-qJFt5Okz-Ny_wI9lv54B4c-SMYYK2RHHiASZQvOG05SA0ONzlgHNkgQE-8-k6VYZQoQao5HlHFeVLPt-xccZzrt:1sYVe7:ww-je5CGGuOQviXgV9puuTj6BvA7tZO7dL6CrCUO-F0",
+      "expire_date": "2024-08-12T19:02:59.466Z"
+    }
+  },
+  {
+    "model": "main.car",
+    "pk": 2,
+    "fields": {
+      "brand": 2,
+      "model": "3008",
+      "price": "35000.00",
+      "description": "Цена с НДС 20% Новый автомобиль в наличии в Минске Официальная гарантия! Возможна продажа в лизинг или кредит. Перед визитом обязательно свяжитесь с менеджерами автосалона.",
+      "image": "car_image/peugeot.jpg",
+      "manufacturer": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "main.car",
+    "pk": 3,
+    "fields": {
+      "brand": 4,
+      "model": "X",
+      "price": "33000.00",
+      "description": "Красота новой роскоши. Благодаря экстремальным линиям и чистой красоте ZEEKR X переосмысляет традиционную эстетику внедорожника. Сверхбольшая панорамная крыша площадью 1,21 м² в сочетании с наклоненным лобовым стеклом создает ощущение прозрачности. Передняя усиленная подвеска MacPherson. Полный привод с двумя двигателями.",
+      "image": "car_image/Z.jpg",
+      "manufacturer": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "main.car",
+    "pk": 4,
+    "fields": {
+      "brand": 3,
+      "model": "Free 1,5 Extended Range",
+      "price": "35500.00",
+      "description": "Новый автомобиль . Богатая комплектация, Автомобиль в наличии по адресу г. Минск, ул. Свердлова 23/3. Возможно приобретение в кредит /лизинг. Наша компания предоставляет полный комплект документов для постановки автомобиля на учет (ЭПТС,ЗОЕТС), а также гарантия и послепродажная поддержка каждого клиента.",
+      "image": "car_image/V.jpg",
+      "manufacturer": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "main.car",
+    "pk": 5,
+    "fields": {
+      "brand": 1,
+      "model": "X",
+      "price": "30000.00",
+      "description": "new car",
+      "image": "car_image/BMW_X6_G06_a7ooVyA.jpg",
+      "manufacturer": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "main.brand",
+    "pk": 1,
+    "fields": {
+      "title": "BMW"
+    }
+  },
+  {
+    "model": "main.brand",
+    "pk": 2,
+    "fields": {
+      "title": "Peugeot"
+    }
+  },
+  {
+    "model": "main.brand",
+    "pk": 3,
+    "fields": {
+      "title": "Voyah"
+    }
+  },
+  {
+    "model": "main.brand",
+    "pk": 4,
+    "fields": {
+      "title": "Zeekr"
+    }
+  },
+  {
+    "model": "main.manufacturer",
+    "pk": 1,
+    "fields": {
+      "description": "машина произведина в Европе",
+      "title": "Европа"
+    }
+  },
+  {
+    "model": "main.manufacturer",
+    "pk": 2,
+    "fields": {
+      "description": "машина произведина в Азии",
+      "title": "Азия"
+    }
+  },
+  {
+    "model": "main.manufacturer",
+    "pk": 3,
+    "fields": {
+      "description": "машина произведина в Азии",
+      "title": "Азия - China Consern"
+    }
+  },
+  {
+    "model": "main.manufacturer",
+    "pk": 4,
+    "fields": {
+      "description": "Germany",
+      "title": "BMW Consern"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "first_name": "Anna",
+      "last_name": "Maria",
+      "email": "annamaria@gmail.com",
+      "address": "Hamburger Str. 81",
+      "post_code": "44135",
+      "created": "2024-07-22T18:34:26.287Z",
+      "paid": false
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "first_name": "Grey",
+      "last_name": "Widle",
+      "email": "grwidl@gmail.com",
+      "address": "Hamburger Str. 81",
+      "post_code": "44135",
+      "created": "2024-07-25T17:10:57.667Z",
+      "paid": false
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 3,
+    "fields": {
+      "order": 3,
+      "product": 3,
+      "price": "33000.00",
+      "quantity": 1
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 4,
+    "fields": {
+      "order": 5,
+      "product": 5,
+      "price": "30000.00",
+      "quantity": 1
+    }
+  }
+]
